@@ -1,0 +1,83 @@
+/* Warna Prioritas */
+.low {
+    color: green;
+}
+
+.medium {
+    color: orange;
+}
+
+.high {
+    color: red;
+}
+
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+#app, #history-page {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    text-align: center;
+}
+
+td{
+    background-color: rgb(255, 255, 255);
+}
+
+th {
+    background-color: #b0efff;
+    font-weight: bold;
+}
+
+#priority-header {
+    cursor: pointer;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+input, button {
+    padding: 8px;
+    margin-top: 10px;
+    
+}
+
+button{
+    cursor: pointer;
+}
+
+.search {
+    margin-top: 20px;
+}
+
+#history-page {
+    display: none;
+}
